@@ -71,3 +71,7 @@ body {
   color: var(--White);
   font-size: 14px;
 }
+
+.original_price {
+  text-decoration: line-through;
+}
