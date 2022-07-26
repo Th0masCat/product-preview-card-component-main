@@ -27,6 +27,8 @@ body {
 .title {
   font-family: "Fraunces", serif;
   color: var(--Verydarkblue);
+  font-size: 35px;
+  line-height: 40px;
 }
 
 .body_text {
@@ -74,4 +76,10 @@ body {
 
 .original_price {
   text-decoration: line-through;
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
 }
